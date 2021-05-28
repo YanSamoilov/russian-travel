@@ -1,0 +1,21 @@
+.afterword__paragraph {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  display: block;
+  max-width: 360px;
+  text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  .afterword__paragraph {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .afterword__paragraph {
+    font-size: 14px;
+  }
+}

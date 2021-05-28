@@ -1,0 +1,17 @@
+.header__lang-list {
+  margin-right: 18px;
+  transition: opacity .3s linear;
+}
+
+.header__lang-list:hover {
+  opacity: .8;
+}
+
+.header__lang-list:last-child {
+  margin-right: 0;
+}
+
+/*Зададим пока так подчеркивание ссылки, на которой находится пользователь. Далее ее поведение изменить с помощью js*/
+.header__lang-list:first-child {
+  text-decoration: underline;
+}

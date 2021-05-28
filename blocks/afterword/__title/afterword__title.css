@@ -1,0 +1,21 @@
+.afterword__title {
+  line-height: 1.1;
+  font-size: 72px;
+  font-weight: 900;
+  display: block;
+  max-width: 550px;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  .afterword__title {
+    font-size: 62px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .afterword__title {
+    font-size: 32px;
+  }
+}

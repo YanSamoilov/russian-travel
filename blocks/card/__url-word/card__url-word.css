@@ -1,0 +1,13 @@
+.card__url-word {
+  font-size: 12px;
+  font-weight: normal;
+  color: #AAAAAA;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .card__url-word {
+    line-height: 1;
+  }
+}

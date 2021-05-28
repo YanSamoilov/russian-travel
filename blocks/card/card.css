@@ -1,0 +1,44 @@
+.card {
+  padding-top: 80px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: minmax(288px, 460px) 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 48px 40px;
+}
+
+.card:first-child {
+  padding-top: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card:first-child {
+    padding-top: 88px;
+    gap: 48px 40px;
+  }
+
+  .card {
+    padding-top: 28px;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  .card {
+    padding-top: 50px;
+    gap: 32px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+  }
+
+  .card:first-child {
+    padding-top: 64px;
+  }
+}

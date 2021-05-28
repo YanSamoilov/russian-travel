@@ -1,0 +1,12 @@
+.card__link-cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 425px) {
+  .card__link-cell {
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+}

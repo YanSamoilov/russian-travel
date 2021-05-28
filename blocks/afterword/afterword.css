@@ -1,0 +1,29 @@
+.afterword {
+  height: 740px;
+  background-image: url(../../images/overlayIndex.png);
+  background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .afterword {
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .afterword {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .afterword {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .afterword {
+    height: 200px;
+  }
+}
