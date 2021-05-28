@@ -16,4 +16,4 @@
 Этот учебный проект впервые позволил применить на практике Grid Layout, познакомиться с адаптивной версткой и использовать макет в Figma.
 
 ### Ссылка на GitHub Pages
-[]()
+[Ссылка на GitHub Pages](https://yansamoilov.github.io/russian-travel/index.html)
