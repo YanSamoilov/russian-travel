@@ -1,7 +1,6 @@
 .card__link {
   line-height: 1.2;
   font-size: 18px;
-  font-weight: normal;
   color: #fff;
   transition: opacity .3s linear;
 }
