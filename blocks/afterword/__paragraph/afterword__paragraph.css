@@ -4,17 +4,14 @@
   display: block;
   max-width: 360px;
   text-align: center;
+  margin: 32px auto 0;
 }
 
-@media screen and (max-width: 425px) {
-  .afterword__paragraph {
-    font-size: 16px;
-  }
-}
-
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .afterword__paragraph {
     font-size: 14px;
+    max-width: 288px;
+    margin: 16px auto 0;
+    line-height: 1.14;
   }
 }

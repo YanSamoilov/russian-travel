@@ -1,4 +1,16 @@
 .afterword__link {
   color: #fff;
   text-decoration: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 44, 47, .3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color .3s linear;
+}
+
+.afterword__link:hover {
+  background-color: rgba(42, 44, 47, .8);
 }

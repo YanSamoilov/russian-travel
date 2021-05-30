@@ -1,15 +1,17 @@
 @import url(../vendor/normalize.css);
-@import url(../styles/fonts.css);
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/page/__afterword/page__afterword.css);
+@import url(../blocks/page/__section/page__section.css);
 
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-list/header__lang-list.css);
-@import url(../blocks/header/__lang-nav/header__lang-nav.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-
-@import url(../blocks/logo/logo.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -18,7 +20,6 @@
 @import url(../blocks/lead/__image-sign/lead__image-sign.css);
 
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__info/intro__info.css);
@@ -36,21 +37,15 @@
 @import url(../blocks/card/__url-word/card__url-word.css);
 @import url(../blocks/card/__link/card__link.css);
 @import url(../blocks/card/__image/card__image.css);
-@import url(../blocks/card/__description/card__description.css);
 @import url(../blocks/card/__paragraph/card__paragraph.css);
 
 @import url(../blocks/afterword/afterword.css);
 @import url(../blocks/afterword/__link/afterword__link.css);
 @import url(../blocks/afterword/__title/afterword__title.css);
-@import url(../blocks/afterword/__overlay/afterword__overlay.css);
 @import url(../blocks/afterword/__paragraph/afterword__paragraph.css);
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__row-links/footer__row-links.css);
 @import url(../blocks/footer/__link-list/footer__link-list.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__author/footer__author.css);
-
-@import url(../blocks/page/__section/page__section.css);
-@import url(../blocks/page/__afterword/page__afterword.css);

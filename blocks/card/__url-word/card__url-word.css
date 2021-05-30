@@ -1,11 +1,13 @@
 .card__url-word {
   font-size: 12px;
-  color: #AAAAAA;
+  color: #AAA;
   margin-bottom: 12px;
-  line-height: 1.6;
+  line-height: 1.7;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .card__url-word {
     line-height: 1;
   }

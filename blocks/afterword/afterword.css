@@ -4,13 +4,13 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1095px) {
   .afterword {
     height: 640px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .afterword {
     height: 480px;
   }
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 425px) {
   .afterword {
-    height: 400px;
+    height: 300px;
   }
 }
 
